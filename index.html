@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT Student CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+      .section-title {
+        position: relative;
+        padding-left: 1rem;
+      }
+      .section-title:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 4px;
+        background-color: #3b82f6;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800 max-w-3xl mx-auto p-6">
+    <div class="bg-white shadow-md rounded-lg p-8">
+      <!-- Header -->
+      <header class="mb-8">
+        <h1 class="text-3xl font-bold text-blue-600 mb-2">Ngoc Xuan Hoi</h1>
+        <div class="flex flex-wrap gap-4 text-sm">
+          <div class="flex items-center">
+            <svg
+              class="w-4 h-4 mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            Hanoi, Vietnam
+          </div>
+          <div class="flex items-center">
+            <svg
+              class="w-4 h-4 mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+              ></path>
+              <path
+                d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+              ></path>
+            </svg>
+            22010186@st.phenikaa-uni.edu.vn
+          </div>
+          <div class="flex items-center">
+            <svg
+              class="w-4 h-4 mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+              ></path>
+            </svg>
+            +84 123 456 789
+          </div>
+          <div class="flex items-center">
+            <svg
+              class="w-4 h-4 mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            http://github.com/22010186
+          </div>
+        </div>
+      </header>
+
+      <!-- Skills Section -->
+      <section class="mb-8">
+        <h2 class="section-title text-xl font-bold mb-4">TECHNICAL SKILLS</h2>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <h3 class="font-semibold text-blue-500 mb-2">Programming</h3>
+            <ul class="list-disc list-inside">
+              <li>PHP (Laravel)</li>
+              <li>JavaScript (Vue, Node.js)</li>
+              <li>C/C++</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-blue-500 mb-2">Database</h3>
+            <ul class="list-disc list-inside">
+              <li>MySQL, PostgreSQL</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-blue-500 mb-2">DevOps & Tools</h3>
+            <ul class="list-disc list-inside">
+              <li>Git, GitHub Actions</li>
+              <li>Serverless</li>
+              <li>AWS (EC2, S3)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-blue-500 mb-2">Other</h3>
+            <ul class="list-disc list-inside">
+              <li>VS Code</li>
+              <li>UI/UX Design (Figma)</li>
+              <li>Photoshop</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section class="mb-8">
+        <h2 class="section-title text-xl font-bold mb-4">EDUCATION</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="font-bold">Phenikaa University</h3>
+            <ul class="list-disc list-inside pl-4 mt-1">
+              <li class="text-gray-600">Major: Information Technology</li>
+              <li class="text-gray-600">
+                Expected Graduation: May 2026 | GPA: 2.3/4.0
+              </li>
+              <li>
+                Relevant Coursework: Data Structures, Algorithms, Database
+                Systems, Web Development, Machine Learning, ...
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <!-- <section class="mb-8">
+        <h2 class="section-title text-xl font-bold mb-4">EXPERIENCE</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="font-bold">
+              Software Engineering Intern - FPT Software
+            </h3>
+            <p class="text-gray-600 italic">Jun 2023 - Aug 2023</p>
+            <ul class="list-disc list-inside pl-4 mt-2">
+              <li>
+                Developed RESTful APIs using Spring Boot for a banking
+                application, improving transaction processing speed by 30%
+              </li>
+              <li>
+                Implemented front-end components with React.js and Material UI
+              </li>
+              <li>Participated in daily stand-ups and Agile sprint planning</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold">
+              Full-stack Developer (Part-time) - TechStart Vietnam
+            </h3>
+            <p class="text-gray-600 italic">Jan 2023 - Present</p>
+            <ul class="list-disc list-inside pl-4 mt-2">
+              <li>
+                Built an e-learning platform using MERN stack (MongoDB, Express,
+                React, Node.js)
+              </li>
+              <li>Designed database schema and optimized queries</li>
+              <li>Deployed application on AWS with CI/CD pipeline</li>
+            </ul>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Projects Section -->
+      <section class="mb-8">
+        <h2 class="section-title text-xl font-bold mb-4">PROJECTS</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="font-bold">
+              Kikatalk Social Network | Laravel platform
+            </h3>
+            <ul class="list-disc list-inside pl-4">
+              <li>
+                Developed a social network platform with sharing and real-time
+                chat functionality
+              </li>
+              <li>
+                CRUD Design and implemented a social network platform with
+                Laravel, Vue.js, and MySQL
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold">E-commerce Web App | Vue, Firebase</h3>
+            <ul class="list-disc list-inside pl-4">
+              <li>
+                Created a cross-platform web app with real-time inventory
+                updates
+              </li>
+              <li>Implemented secure payment gateway integration</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- References Section -->
+      <!-- <section>
+        <h2 class="section-title text-xl font-bold mb-4">REFERENCES</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="font-semibold">Dr. Nguyen Van B</h3>
+            <p class="text-gray-600">
+              Associate Professor, Computer Science Department
+            </p>
+            <p class="text-gray-600">
+              Hanoi University of Science and Technology
+            </p>
+            <p class="text-gray-600">nguyen.b@hust.edu.vn | +84 987 654 321</p>
+          </div>
+          <div>
+            <h3 class="font-semibold">Ms. Le Thi C</h3>
+            <p class="text-gray-600">Senior Software Engineer, FPT Software</p>
+            <p class="text-gray-600">le.c@fpt.com | +84 912 345 678</p>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Interests Section -->
+      <section class="mb-8">
+        <h2 class="section-title text-xl font-bold mb-4">INTERESTS</h2>
+
+        <!-- Sport Interests -->
+        <div class="flex items-start mb-3">
+          <svg
+            class="w-5 h-5 text-blue-500 mr-2"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 10V3L4 14h7v7l9-11h-7z"
+            />
+          </svg>
+          <div>
+            <h3 class="font-semibold">Sport</h3>
+            <p class="text-gray-600 text-sm">Running, Swimming</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <!-- Technical Interests -->
+          <div class="flex items-start mb-3">
+            <svg
+              class="w-5 h-5 text-blue-500 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
+            <div>
+              <h3 class="font-semibold">Clone Famous Projects</h3>
+              <p class="text-gray-600 text-sm">E.g: Youtube, Temu, Twitter</p>
+            </div>
+          </div>
+          <div class="flex items-start mb-3">
+            <svg
+              class="w-5 h-5 text-blue-500 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+              />
+            </svg>
+            <div>
+              <h3 class="font-semibold">UI/UX Design</h3>
+              <p class="text-gray-600 text-sm">
+                Figma prototyping, design systems
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
